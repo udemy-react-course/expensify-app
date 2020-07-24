@@ -4,14 +4,12 @@ export const setTextFilter = (text = '') => ({
     text
 })
 // SORT_BY_DATE
-export const sortByDate = ({ sortBy }) => ({
-    type: 'SORT_BY_DATE',
-    sortBy
+export const sortByDate = () => ({
+    type: 'SORT_BY_DATE'
 })
 // SORT_BY_AMOUNT
-export const sortByAmount = ({ sortBy }) => ({
-    type: 'SORT_BY_AMOUNT',
-    sortBy
+export const sortByAmount = () => ({
+    type: 'SORT_BY_AMOUNT'
 })
 // SET_START_DATE
 export const setStartDate = (startDate)  => ({
